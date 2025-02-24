@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1 Task</title>
+</head>
+<body>
+	<div id="main">
+	<h1>Weather Sounds</h1>
+	<div id="btn-group">
+		<button id="sun" data-audio="/files/assets/sounds/summer.mp3"
+		data-img="/files/assets/summer-bg.jpg" data-icon="/files/assets/icons/sun.svg"><img src="/files/assets/icons/sun.svg"></button>
+		<button id="rain" data-audio="/files/assets/sounds/rain.mp3"
+			data-img="/files/assets/rainy-bg.jpg" data-icon="/files/assets/icons/cloud-rain.svg"><img src="/files/assets/icons/cloud-rain.svg"></button>
+		<button id="winter" data-audio="/files/assets/sounds/winter.mp3"
+			data-img="/files/assets/winter-bg.jpg" data-icon="/files/assets/icons/cloud-snow.svg"><img src="/files/assets/icons/cloud-snow.svg"></button>
+	</div>
+	<div id="audio-regulation">
+		<input type="range" id="volume-control" min="0" max="1" step="0.1" value="0.5">
+	</div>
+		<audio id="audio-player"></audio>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+	background-image: url("/src/files/assets/rainy-bg.jpg");
+}
+
+button {
+	width: 150px;
+	cursor: pointer;
+	border-radius: 20px;
+	height: 150px;
+	background-size: cover;
+	border: 1px solid gray;
+}
+
+img {
+	width: 40px;
+}
+
+h1 {
+	color: lightcoral;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#btn-group {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	width: 600px;
+}
+
+#sun {
+	background-image: url("/src/files/assets/summer-bg.jpg");
+}
+#rain {
+	background-image: url("/src/files/assets/rainy-bg.jpg");
+}
+#winter {
+	background-image: url("/src/files/assets/winter-bg.jpg");
+}
+
+#audio-regulation {
+	margin-top: 50px;
+}
